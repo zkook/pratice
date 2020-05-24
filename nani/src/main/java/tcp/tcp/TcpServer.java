@@ -22,18 +22,6 @@ import java.nio.charset.Charset;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-/**
- * <pre>
- * kr.co.swh.lecture.network.tcp
- * TcpServer.java
- *
- * ���� :TCP ����
- * </pre>
- * 
- * @since : 2018. 6. 23.
- * @author : tobby48
- * @version : v1.0
- */
 public class TcpServer {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	static final String DB_URL = "jdbc:mysql://dev-swh.ga:3306/koko";
