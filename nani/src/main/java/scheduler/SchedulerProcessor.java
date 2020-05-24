@@ -16,7 +16,7 @@ import org.quartz.JobExecutionException;
  * @author : zkook
  * @version : v1.0
  */
-public class SchedulerProcessor implements org.quartz.Job{
+public class SchedulerProcessor implements quartz.Job{
 	private static int count = 0;
 	@Override
 	public void execute(JobExecutionContext context) throws JobExecutionException {
