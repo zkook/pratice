@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>·©Å·</th>
+                    <th>Å°¿öµå</th>
+                    <th>ºóµµ¼ö</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0; i<values.length; i++){ %>
+                <tr>
+                    <td>
+                        <%= values[i].rank %>
+                    </td>
+                    <td>
+                        <%= values[i].keyword %>
+                    </td>
+                    <td>
+                        <%= values[i].num %>
+                    </td>
+                </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </body>
+</html>
