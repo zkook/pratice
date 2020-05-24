@@ -10,12 +10,14 @@ import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
 
+import jsla.hohoh.SchedulerProcessor;
+
 /**
  * <pre>
  * kr.co.swh.lecture.opensource.quartz
  * QuartzMain.java
  *
- * ¼³¸í :
+ * ï¿½ï¿½ï¿½ï¿½ :
  * </pre>
  * 
  * @since : 2018. 9. 30.
@@ -78,12 +80,12 @@ public class QuartzMain {
 		// TODO Auto-generated method stub
 		QuartzMain quartz = new QuartzMain();
 		
-//		0/1 * * * * ?         ¸Å 1ÃÊ °£°Ý
-//		0 0/1 * * * ?         ¸Å 1ºÐ °£°Ý
-//		0 0 0/1 * * ?         ¸Å 1½Ã°£ °£°Ý
-//		0 0 0 * * ?            ¸ÅÀÏ 0½Ã ¸¶´Ù
-//		0 0 0 1 * ?            ¸Å¿ù 1ÀÏ ¸¶´Ù
-//		0 0 0 1,10,20 * ?    ¸Å¿ù 1ÀÏ, 10ÀÏ, 20ÀÏ ¸¶´Ù
+//		0/1 * * * * ?         ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		0 0/1 * * * ?         ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		0 0 0/1 * * ?         ï¿½ï¿½ 1ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		0 0 0 * * ?            ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		0 0 0 1 * ?            ï¿½Å¿ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		0 0 0 1,10,20 * ?    ï¿½Å¿ï¿½ 1ï¿½ï¿½, 10ï¿½ï¿½, 20ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		if(quartz.initialise("0/1 * * * * ?", SchedulerProcessor.class)){
 			quartz.start();
