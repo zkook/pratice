@@ -18,8 +18,8 @@ import org.quartz.impl.StdSchedulerFactory;
  * 설명 :
  * </pre>
  * 
- * @since : 2018. 9. 30.
- * @author : tobby48
+ * @since : 2019. 7. 30.
+ * @author : zkook
  * @version : v1.0
  */
 public class QuartzMain {
