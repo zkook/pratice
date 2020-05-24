@@ -1,4 +1,4 @@
-package ad;
+package IpDisplay;
 import java.net.MalformedURLException;
 import java.net.URL;
 public class URLEx1 {

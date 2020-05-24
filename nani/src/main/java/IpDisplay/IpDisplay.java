@@ -1,4 +1,4 @@
-package ad;
+package IpDisplay;
 
 import java.net.InetAddress;
 public class IpDisplay {
