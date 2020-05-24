@@ -1,4 +1,4 @@
-package jsla.hohoh; 
+package scheduler; 
 
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

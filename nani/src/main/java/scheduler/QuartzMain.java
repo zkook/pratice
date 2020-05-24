@@ -1,4 +1,4 @@
-package jsla.hohoh;
+package scheduler;
 
 import java.util.UUID;
 
