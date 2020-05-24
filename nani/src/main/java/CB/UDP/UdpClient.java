@@ -1,4 +1,4 @@
-package cuka_blyat.UDP; 
+package CB.UDP; 
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -10,7 +10,7 @@ import java.util.Scanner;
  * kr.co.swh.lecture.network.udp
  * UdpClient.java
  *
- * ¼³¸í :UDP Å¬¶óÀÌ¾ðÆ®
+ * ï¿½ï¿½ï¿½ï¿½ :UDP Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®
  * </pre>
  * 
  * @since : 2018. 6. 23.
@@ -20,19 +20,19 @@ import java.util.Scanner;
 public class UdpClient {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("º¸³¾ ¸Þ¼¼Áö ÀÔ·Â :");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ :");
 		String msg = scanner.next();
 		try{
-			// Àü¼ÛÇÒ ¼ö ÀÖ´Â UDP ¼ÒÄÏ »ý¼º
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ UDP ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			DatagramSocket ds = new DatagramSocket();
 
-			// ¹ÞÀ» °÷ÀÇ ÁÖ¼Ò »ý¼º
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 			InetAddress ia = InetAddress.getByName("127.0.0.1");
 
-			// Àü¼ÛÇÒ µ¥ÀÌÅÍ »ý¼º
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			DatagramPacket dp = new DatagramPacket(msg.getBytes(),msg.getBytes().length,ia, 7777);
 
-			//µ¥ÀÌÅÍ Àü¼Û
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			ds.send(dp);
 			ds.close();
 		}catch(Exception e){
