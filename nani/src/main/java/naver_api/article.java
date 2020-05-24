@@ -1,4 +1,4 @@
-package lenin.blyat;
+package naver_api;
 
 public class article 
 {

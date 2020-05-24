@@ -1,4 +1,4 @@
-package lenin.blyat;
+package naver_api;
 public class a {
 	//Scanner scan = new Scanner();
 	ma ed = new ma();

@@ -1,4 +1,4 @@
-package lenin.blyat;
+package naver_api;
 import java.io.IOException;
 import java.util.Scanner;
 
