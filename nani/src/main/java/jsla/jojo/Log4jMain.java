@@ -11,8 +11,8 @@ import org.apache.logging.log4j.Logger;
  * ���� :Log4j2 ����
  * </pre>
  * 
- * @since : 2018. 1. 31.
- * @author : tobby48
+* @since : 2019. 1. 30.
+ * @author : zkook
  * @version : v1.0
  */
 public class Log4jMain {

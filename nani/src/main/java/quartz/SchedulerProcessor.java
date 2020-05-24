@@ -12,8 +12,8 @@ import org.quartz.JobExecutionException;
  * 설명 :
  * </pre>
  * 
- * @since : 2018. 11. 30.
- * @author : tobby48
+ ** @since : 2019. 7. 30.
+ * @author : zkook
  * @version : v1.0
  */
 public class SchedulerProcessor implements org.quartz.Job{

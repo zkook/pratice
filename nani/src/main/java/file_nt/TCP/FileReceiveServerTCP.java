@@ -9,15 +9,14 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * <pre>
- * kr.co.swh.lecture.network.filetrans 
+
  * FileReceiveServer.java
  *
  * 설명 :파일 전송 서버
  * </pre>
  * 
- * @since : 2018. 12. 28.
- * @author : tobby48
+ * @since : 2019. 12. 28.
+ * @author : zkook
  * @version : v1.0
  */
 public class FileReceiveServerTCP {
