@@ -40,7 +40,7 @@ public class QuartzMain {
 		String id = UUID.randomUUID().toString();
 		String cron = String.valueOf(cronExpr);
 		
-		JobDetail newJob = JobBuilder.newJob(class1).withIdentity(id).build();
+		JobDetail newJob = JobBuilder.newJob().withIdentity(id).build();
 		Trigger trigger = null;
 		try {
 			trigger = TriggerBuilder.newTrigger().withIdentity("trigger_" + id)
