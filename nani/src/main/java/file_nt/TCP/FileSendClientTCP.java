@@ -9,14 +9,14 @@ import java.net.Socket;
 
 /**
  * <pre>
- * kr.co.swh.lecture.network.filetrans 
+
  * FileSendClient.java
  *
  * 설명 :파일 전송 클라이언트
  * </pre>
  * 
- * @since : 2018. 12. 28.
- * @author : tobby48
+ * @since : 2019. 12. 28.
+ * @author : zkook
  * @version : v1.0
  */
 public class FileSendClientTCP {
