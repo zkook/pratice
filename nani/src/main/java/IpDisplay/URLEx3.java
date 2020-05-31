@@ -5,6 +5,18 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
+/**
+ * <pre>
+ * IpDisplay 
+ * URLEx3.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author :zkook
+ * @version : v1.0
+ */
 public class URLEx3 {
     public static void main(String[] args) {
         try {

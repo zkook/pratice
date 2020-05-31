@@ -1,6 +1,18 @@
 package IpDisplay;
 import java.net.MalformedURLException;
 import java.net.URL;
+/**
+ * <pre>
+ * IpDisplay 
+ * URLEx1.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class URLEx1 {
     public static void main(String[] args) {
         URL opinion = null;
