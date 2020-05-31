@@ -1,4 +1,5 @@
 package HTTPCLIENT;
+
 import java.io.IOException;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -6,6 +7,18 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+/**
+ * <pre>
+ * HTTPCLIENT 
+ * HttpClientGetExample.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class HttpClientGetExample {
     public static void main(String[] args) {
         HttpClient client = HttpClients.createDefault();

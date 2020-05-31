@@ -8,6 +8,18 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+/**
+ * <pre>
+ * HTTPCLIENT 
+ * HttpClientPutExample.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class HttpClientPutExample {
     public static void main(String[] args) {
         HttpClient client = HttpClients.createDefault();

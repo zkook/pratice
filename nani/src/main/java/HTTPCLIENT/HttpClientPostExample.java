@@ -1,4 +1,5 @@
 package HTTPCLIENT;
+
 import java.io.IOException;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -8,6 +9,18 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+/**
+ * <pre>
+ * HTTPCLIENT 
+ * HttpClientPostExample.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class HttpClientPostExample {
     public static void main(String[] args) {
         HttpClient client = HttpClients.createDefault();
