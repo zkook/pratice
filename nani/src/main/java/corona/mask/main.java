@@ -30,6 +30,18 @@ import com.google.gson.Gson;
 
 
 
+/**
+ * <pre>
+ * corona.mask 
+ * main.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class main {
 	
 	public static void main(String args[]) throws IOException {

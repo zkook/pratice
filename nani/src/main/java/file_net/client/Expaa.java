@@ -9,6 +9,18 @@ import java.util.Map;
 
 import corona.mask.FreeMarkerTemplateEngine;
 
+/**
+ * <pre>
+ * file_net.client 
+ * Expaa.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class Expaa {
 
     public static void main(String args[]) throws IOException {

@@ -1,6 +1,7 @@
 package corona.mask;
 
 import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -18,6 +19,18 @@ import com.google.gson.Gson;
 
 
 
+/**
+ * <pre>
+ * corona.mask 
+ * send.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class send {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	static final String DB_URL = "jdbc:mysql://dev-swh.ga:3306/koko";

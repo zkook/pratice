@@ -4,9 +4,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import java.util.List;
-
- 
-
+ /**
+ * <pre>
+ * file_net.client 
+ * ListObjectRemoveExample.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class ListObjectRemoveExample {
 	public static void main(String[] args) {
 		HashMap<String, Integer> map = new HashMap<String, Integer>();	

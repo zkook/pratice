@@ -1,7 +1,20 @@
 package corona.mask;
 
+
 import java.util.List;
 
+/**
+ * <pre>
+ * corona.mask 
+ * name.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class name {
 	private Integer count;
 	private Integer page;
