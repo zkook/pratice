@@ -53,8 +53,8 @@ public class send {
 			String result = EntityUtils.toString(entity);
 			//System.out.println(result);
 			Gson gson = new Gson();
-			name nm = gson.fromJson(result, name.class);
-			List<location> k = nm.getStoreInfos();
+			Name nm = gson.fromJson(result, Name.class);
+			List<Location> k = nm.getStoreInfos();
 			String ad;
 			for(int i = 0; i < k.size(); i++) {
 				System.out.println();

@@ -15,10 +15,10 @@ import java.util.List;
  * @author : zkook
  * @version : v1.0
  */
-public class name {
+public class Name {
 	private Integer count;
 	private Integer page;
-	private List<location> storeInfos;
+	private List<Location> storeInfos;
 	public Integer getCount() {
 		return count;
 	}
@@ -31,10 +31,10 @@ public class name {
 	public void setPage(Integer page) {
 		page = page;
 	}
-	public List<location> getStoreInfos() {
+	public List<Location> getStoreInfos() {
 		return storeInfos;
 	}
-	public void setStoreInfos(List<location> storeInfos) {
+	public void setStoreInfos(List<Location> storeInfos) {
 		this.storeInfos = storeInfos;
 	}
 }

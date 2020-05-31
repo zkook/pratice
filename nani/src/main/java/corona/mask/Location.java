@@ -13,7 +13,7 @@ package corona.mask;
  * @author : zkook
  * @version : v1.0
  */
-public class location {
+public class Location {
 		
 		private String addr;
 		private String code;

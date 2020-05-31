@@ -42,7 +42,7 @@ import com.google.gson.Gson;
  * @author : zkook
  * @version : v1.0
  */
-public class main {
+public class Main {
 	
 	public static void main(String args[]) throws IOException {
 
