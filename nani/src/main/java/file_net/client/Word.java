@@ -1,5 +1,17 @@
 package file_net.client;
 
+/**
+ * <pre>
+ * file_net.client 
+ * Word.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class Word {
 	
 	private String word;
