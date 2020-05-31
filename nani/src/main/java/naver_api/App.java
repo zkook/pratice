@@ -2,7 +2,7 @@ package naver_api;
 import java.io.IOException;
 import java.util.Scanner;
 
-import javax.swing.text.Document;
+
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
