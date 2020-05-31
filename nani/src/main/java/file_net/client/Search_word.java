@@ -42,7 +42,7 @@ import java.nio.charset.Charset;
 public class Search_word {
 
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-	static final String DB_URL = "jdbc:mysql://dev-swh.ga:3306/kassava12";
+	static final String DB_URL = "jdbc:mysql://dev-swh.ga:3306/koko";
 	static final String USERNAME = "root";
 	static final String PASSWORD = "swhacademy!";
 	public static void main(String[] args) {
