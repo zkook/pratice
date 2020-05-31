@@ -1,4 +1,16 @@
 package naver_api;
+/**
+ * <pre>
+ * naver_api 
+ * Api.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class Api {
 	//Scanner scan = new Scanner();
 	Year ed = new Year();

@@ -7,6 +7,18 @@ import javax.swing.text.Document;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+/**
+ * <pre>
+ * naver_api 
+ * App.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class App 
 {
     public static void main( String[] args )
