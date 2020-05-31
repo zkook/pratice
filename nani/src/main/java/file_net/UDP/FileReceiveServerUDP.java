@@ -13,7 +13,7 @@ import java.net.DatagramSocket;
  * </pre>
  * 
  * @since : 2018. 12. 28.
- * @author : tobby48
+ * @author : zkook
  * @version : v1.0
  */
 public class FileReceiveServerUDP {

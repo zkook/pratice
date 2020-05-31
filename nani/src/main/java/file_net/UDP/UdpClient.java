@@ -14,7 +14,7 @@ import java.util.Scanner;
  * </pre>
  * 
  * @since : 2018. 6. 23.
- * @author : tobby48
+ * @author : zkook
  * @version : v1.0
  */
 public class UdpClient {

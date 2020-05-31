@@ -15,7 +15,7 @@ import java.net.InetAddress;
  * </pre>
  * 
  * @since : 2018. 12. 28.
- * @author : tobby48
+ * @author : zkook
  * @version : v1.0
  */
 public class FileSendClientUDP {
