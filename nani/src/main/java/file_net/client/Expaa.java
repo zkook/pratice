@@ -9,7 +9,7 @@ import java.util.Map;
 
 import corona.mask.FreeMarkerTemplateEngine;
 
-public class expaa {
+public class Expaa {
 
     public static void main(String args[]) throws IOException {
 

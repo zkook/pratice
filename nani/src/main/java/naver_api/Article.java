@@ -1,6 +1,6 @@
 package naver_api;
 
-public class article 
+public class Article 
 {
 	String id;
 	String content;

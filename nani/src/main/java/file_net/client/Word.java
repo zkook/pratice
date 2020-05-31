@@ -1,6 +1,6 @@
 package file_net.client;
 
-public class word {
+public class Word {
 	
 	private String word;
 	private String size;

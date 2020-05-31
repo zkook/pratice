@@ -1,7 +1,7 @@
 package naver_api;
-public class a {
+public class Api {
 	//Scanner scan = new Scanner();
-	ma ed = new ma();
+	Year ed = new Year();
 	public static void main(String[] args) {
 		String Q1 = null;
 		String Q2 = null;
@@ -37,8 +37,8 @@ public class a {
 		date2 = Integer.parseInt(date);
 		month2 = Integer.parseInt(month);
 		year2 = Integer.parseInt(year);
-		int yw = ma.endDayFromTotalDay(year1,month1);
-		int s = ma.totalDayFromCalendar(year2, month2, date2)-ma.totalDayFromCalendar(year1, month1, date1);
+		int yw = Year.endDayFromTotalDay(year1,month1);
+		int s = Year.totalDayFromCalendar(year2, month2, date2)-Year.totalDayFromCalendar(year1, month1, date1);
 		for(int y = 0;y<s;y++) {
 			if(date1 <= yw) {
 				if(month1 >= 12) {
@@ -61,7 +61,7 @@ public class a {
 			Q3 = Integer.toString(date1);
 			System.out.println(Q1 + "-"+ Q2 + "-" + Q3);
 			date1++;
-			yw = ma.endDayFromTotalDay(year1,month1);
+			yw = Year.endDayFromTotalDay(year1,month1);
 			
 		}
 	}

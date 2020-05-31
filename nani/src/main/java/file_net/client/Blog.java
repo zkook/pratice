@@ -1,6 +1,6 @@
 package file_net.client;
 
-public class blog {
+public class Blog {
 	
 	private String title;
 	private String description;

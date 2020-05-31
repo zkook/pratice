@@ -11,7 +11,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	article art = new article();
+    	Article art = new Article();
     	Scanner Scan = new Scanner(System.in);
     	int sid1 = 100;
     	int sid2 = 269;

@@ -1,6 +1,6 @@
 package naver_api;
 
-public class ma {
+public class Year {
 
 	public static int endDayFromTotalDay(int year, int month){
 			int lastday;

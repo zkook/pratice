@@ -58,10 +58,10 @@ public class Search_word {
 			}*/
 			String y = "SELECT * FROM Blog where title like '%"+ i +"%'";
 			ResultSet pop = stmt.executeQuery(y);
-			ArrayList<blog> list = new ArrayList<blog>();
-			List<word> list_a = new ArrayList<word>();
+			ArrayList<Blog> list = new ArrayList<Blog>();
+			List<Word> list_a = new ArrayList<Word>();
 			while(pop.next()) {
-				blog a = new blog();
+				Blog a = new Blog();
 				a.setTitle(pop.getString("title"));
 				a.setDescription(pop.getString("description"));
 
@@ -70,13 +70,13 @@ public class Search_word {
 					if (m.feature().head().equals("NNG") || m.feature().head().equals("NNP")){
 						
 						String gaga = m.surface();
-						word w1 = new word();
+						Word w1 = new Word();
 						list_a.add(w1);
 					}
 					//System.out.println(m.surface() + " / 품사:" + m.feature().head());
 				}
 
-				List<word> list1 = new ArrayList<word>();
+				List<Word> list1 = new ArrayList<Word>();
 
 
 				list.add(a);
@@ -111,9 +111,9 @@ public class Search_word {
 			//}			
 			String y = "SELECT * FROM Blog";
 			ResultSet pop = stmt.executeQuery(y);
-			ArrayList<blog> list = new ArrayList<blog>();
+			ArrayList<Blog> list = new ArrayList<Blog>();
 			while(pop.next()) {
-				blog a = new blog();
+				Blog a = new Blog();
 				a.setTitle(pop.getString("title"));
 				a.setDescription(pop.getString("description"));
 
@@ -154,9 +154,9 @@ public class Search_word {
 			//}fuck!
 			String y = "SELECT * FROM Blog";
 			ResultSet pop = stmt.executeQuery(y);
-			ArrayList<blog> list = new ArrayList<blog>();
+			ArrayList<Blog> list = new ArrayList<Blog>();
 			while(pop.next()) {
-				blog a = new blog();
+				Blog a = new Blog();
 				a.setTitle(pop.getString("title"));
 				a.setDescription(pop.getString("description"));
 

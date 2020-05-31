@@ -39,7 +39,7 @@ public class QuartzMain {
 	public boolean initialise(String cronExpr, Class<SchedulerProcessor> class1){
 		String id = UUID.randomUUID().toString();
 		
-		JobDetail newJob = JobBuilder.newJob(class1).withIdentity(id).build();
+		JobDetail newJob = JobBuilder.newJob().withIdentity(id).build();
 		Trigger trigger = TriggerBuilder.newTrigger().withIdentity("trigger_" + id)
 				.withSchedule(CronScheduleBuilder.cronSchedule(cronExpr)).forJob(id)
 				.build();
