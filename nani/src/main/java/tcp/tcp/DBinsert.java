@@ -19,8 +19,15 @@ import java.sql.SQLException;
  * @version : v1.0
  */
 public class DBinsert {
-	public DBinsert(JDBC_DRIVER,DB_URL,USERNAME,PASSWORD){
-		
+	static  String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+	static  String DB_URL = "jdbc:mysql://dev-swh.ga:3306/koko";
+	
+	static  String USERNAME = "root";
+	static  String PASSWORD = "swhacademy!";
+	public DBinsert(String url,String username,String password){
+		DB_URL = url;
+		USERNAME = username;
+		PASSWORD = password;
 	}
 	public void insert(){
 		try{
