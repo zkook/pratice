@@ -22,6 +22,18 @@ import java.nio.charset.Charset;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+/**
+ * <pre>
+ * tcp.tcp 
+ * TcpServer.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class TcpServer {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	static final String DB_URL = "jdbc:mysql://dev-swh.ga:3306/koko";
@@ -29,8 +41,8 @@ public class TcpServer {
 	static final String USERNAME = "root";
 	static final String PASSWORD = "swhacademy!";
 	public static void main(String[] args) {
-		ServerSocket ss = null;		// 소켓생성
-		Socket sock = null;		// 소켓
+		ServerSocket ss = null;		// ìì¼ìì±
+		Socket sock = null;		// ìì¼
 		
 		try {
 			ss = new ServerSocket(7000);	
@@ -46,9 +58,9 @@ public class TcpServer {
 
 			/*
 				String msg = in.readLine();
-				System.out.println("���� �޽��� : "+msg);
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ : "+msg);
 
-				Ŭ���̾�Ʈ���� ���� ����
+				Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 				in.close();
 				sock.close();*/
 

@@ -6,6 +6,18 @@ import java.nio.charset.Charset;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * <pre>
+ * tcp.tcp 
+ * DBinsert.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class DBinsert {
 	public DBinsert(JDBC_DRIVER,DB_URL,USERNAME,PASSWORD){
 		
