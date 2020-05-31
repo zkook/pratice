@@ -3,13 +3,20 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * <pre>
+ * umm 
+ * PropertiesDemo.java
+ *
+ * ì„¤ëª… :
+ * </pre>
+ * 
+ * @since : 2020. 5. 31.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class PropertiesDemo {
-	/**
-	 * ÇÁ·ÎÆÛÆ¼ ÆÄÀÏÀ» ½ºÆ®¸²À¸·Î ÀÐÀ½
-	 *
-	 * @param path
-	 * @throws IOException
-	 */
+	
 	public Properties loadProp(String path) throws IOException {
 		Properties properties = new Properties();
 		InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream(path);
@@ -21,37 +28,37 @@ public class PropertiesDemo {
 	public static void main(String[] args) throws IOException {
 		PropertiesDemo propertiesDemo = new PropertiesDemo();
 
-		// ÇÁ·ÎÆÛÆ¼ ÆÄÀÏÀ» ÀÐ¾îµéÀÌ°í ÇØ´ç °ªÀ» Ãâ·Â
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		Properties properties = propertiesDemo.loadProp("application.properties");
 		properties.list(System.out);
 
-		// °°Àº Å°¸¦ ÁØ °æ¿ì ¿À¹ö¶óÀÌµå ÇÏ´Â °ÍÀ» È®ÀÎ
+		// ï¿½ï¿½ï¿½ï¿½ Å°ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 		Properties staticProp = propertiesDemo.loadProp("application-prod.properties");
 		properties.putAll(staticProp);
 		properties.list(System.out);
 
-		// ÇÁ·ÎÆÛÆ¼°£ÀÇ °áÇÕ
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		Properties dummy = new Properties();
 		dummy.put("demo.type", "dummy");
-		dummy.put("demo.temp", "temp"); 	// »õ·Î¿î Å°¸¦ Ãß°¡
-		properties.putAll(dummy); 			// ±âÁ¸ ÇÁ·ÎÆÛÆ¼¿¡ ´õ¹Ì ÇÁ·ÎÆÛÆ¼¸¦ °áÇÕ
+		dummy.put("demo.temp", "temp"); 	// ï¿½ï¿½ï¿½Î¿ï¿½ Å°ï¿½ï¿½ ï¿½ß°ï¿½
+		properties.putAll(dummy); 			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		properties.list(System.out);
 
-		// Å°¸¦ ÁÖ¾î °ªÀ» ¸®ÅÏ
+		// Å°ï¿½ï¿½ ï¿½Ö¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		Object type = properties.get("demo.type");
 		System.out.println(type);
 
-		// ÇÁ·ÎÆÛÆ¼ Å°µéÀ» ¼øÈ¸
-		// stringPropertyNames() ´ë½Å ´Ù¸¥ ¸Þ¼Òµå »ç¿ë °¡´É
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ Å°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¸
+		// stringPropertyNames() ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½Þ¼Òµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for (String key : properties.stringPropertyNames()) {
 			Object value = properties.getProperty(key);
 			System.out.println(value);
 		}
 
-		// ÇØ´ç Å°°¡ ÀÖ´ÂÁö ¿©ºÎ¸¦ ÆÇº°ÇÕ´Ï´Ù.
+		// ï¿½Ø´ï¿½ Å°ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½Çºï¿½ï¿½Õ´Ï´ï¿½.
 		System.out.println(properties.containsKey("demo.type"));
 
-		// ÇØ´ç °ªÀÌ ÀÖ´ÂÁö ¿©ºÎ¸¦ ÆÇº°ÇÕ´Ï´Ù.
+		// ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½Çºï¿½ï¿½Õ´Ï´ï¿½.
 		System.out.println(properties.containsValue("dummy"));
 	}
 }
