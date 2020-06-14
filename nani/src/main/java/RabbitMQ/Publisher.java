@@ -7,6 +7,18 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+/**
+ * <pre>
+ * RabbitMQ 
+ * Publisher.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 6. 14.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class Publisher {
 
 	private final static String QUEUE_NAME = "hello";

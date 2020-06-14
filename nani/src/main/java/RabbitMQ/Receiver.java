@@ -11,6 +11,18 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
+/**
+ * <pre>
+ * RabbitMQ 
+ * Receiver.java
+ *
+ * 설명 :
+ * </pre>
+ * 
+ * @since : 2020. 6. 14.
+ * @author : zkook
+ * @version : v1.0
+ */
 public class Receiver {
 	private final static String QUEUE_NAME = "hello";
 	public static void main(String[] argv) throws IOException, TimeoutException {
