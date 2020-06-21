@@ -54,13 +54,5 @@ public class Main {
 			// src/test/resources/spark/examples/templateview/freemarker
 			return modelAndView(attributes, "mask.ftl");
 		}, new FreeMarkerTemplateEngine());
-		
-		
-
-
-
-
-
 	}
-
 }
