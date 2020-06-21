@@ -16,6 +16,8 @@ public class Stack {
 	private final int MAX_SIZE = 50;
 	private int top = -1;
 	private int stack[];
+	int[] a = new int[MAX_SIZE];
+	
     
 
 }

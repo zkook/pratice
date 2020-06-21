@@ -16,7 +16,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * @author : tobby48
  * @version : v1.0
  */
-public class TopicSender {
+public class TopicSender { 
 
 	private static final String EXCHANGE_NAME = "news.new";
 
