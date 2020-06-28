@@ -13,7 +13,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * </pre>
  * 
  * @since : 2020. 6. 21.
- * @author : tobby48
+ * @author : zkook
  * @version : v1.0
  */
 public class TopicSender { 
