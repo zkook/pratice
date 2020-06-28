@@ -20,7 +20,7 @@ import java.util.Scanner;
  * </pre>
  * 
  * @since : 2020. 6. 19.
- * @author : ZKOOK
+ * @author : yhyeon
  * @version : v1.0
  */
 
