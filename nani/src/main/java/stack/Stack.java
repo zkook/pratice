@@ -37,4 +37,11 @@ public class Stack {
 		if(top == -1) return -1;//Top이 -1일때 리턴 -1
 		return stack[top--];//
 	}
+	public static void main(String[] args) {
+		Stack n = new Stack(20);
+		
+		System.out.println(n.pop());
+	}
 }
+
+
