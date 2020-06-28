@@ -13,11 +13,28 @@ package stack;
  * @version : v1.0
  */
 public class Stack {
-	private final int MAX_SIZE = 50;
-	private int top = -1;
-	private int stack[];
-	int[] a = new int[MAX_SIZE];
+	private final int MAX_SIZE = 50;//범위
+	private int top = -1;//순서지정
+	private int stack[];//배열생성
 	
-    
-
+	public Stack(int size){
+		stack = new int[size];
+	}
+	public boolean full(){
+		return (top==(MAX_SIZE-1));//최대일때 리턴
+	}
+	public boolean empty(){
+		return (top==-1);//아무것도 없을때 리턴
+	}
+	public void push(int value){
+		if(top >= MAX_SIZE){
+			full();
+			return;
+		}
+		stack[++top] = value;
+	}
+	public int pop(){
+		if(top == -1) return -1;
+		return stack[top--];
+	}
 }
