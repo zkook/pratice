@@ -1,18 +1,19 @@
-package naver_api;
+package Linkedlist;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
 /**
  * <pre>
- * kr.co.swh.lecture.datastructure
- * LinkedList.java
+ * naver_api 
+ * Linkedlist.java
  *
- * 설명 :링크드 리스트
+ * 설명 :
  * </pre>
  * 
- * @since : 2017. 6. 29.
- * @author : tobby48
+ * @since : 2020. 7. 19.
+ * @author : zkook
  * @version : v1.0
  */
 public class Linkedlist {
