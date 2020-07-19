@@ -34,9 +34,10 @@ public class Q {
 			return;
 		}
 		Que[++rear] = value;//배열
+		
 	}
 	public int pop(){
-		if(rear == -1) return -1;//Top이 -1일때 리턴 -1
+		if(rear == -1) return -1;//rear이 -1일때 리턴 -1
 		return Que[rear--];//
 	}
 	
